@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(59, 58, 58);
+}
+
+.nav-title {
+    color: azure;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: azure;
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    
+}
+
+.nav-links li a:hover {
+    color: aquamarine;
+}
+
+.welcome{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    max-width: 500px;
+    padding: 25px;
+    font-size: large;
+    color: azure;
+    border: solid aquamarine 1px;
+    background-color: black;
+}
+
+p {
+    background-color: black;
+}
+
+    </style>
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <h2 class="nav-title">Hiking Unlimited</h2>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="/views/index.html">Home</a></li>
+                <li><a href="/views/about.html">About</a></li>
+                <li><a href="/views/shop.html">Shop</a></li>
+                <li><a href="/views/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="welcome">
+        <p>Welcome to Hiking unlimited. The Website for all your hiking needs, including weather forcast clothing and accesories and much more.</p>
+    </div>
+</body>
+</html>

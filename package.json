@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-qap-2",
+  "version": "1.0.0",
+  "description": "Setting up web-server with routing and logging to disk",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jthomas227/NodeJs-QAP-2.git"
+  },
+  "author": "Jacob Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jthomas227/NodeJs-QAP-2/issues"
+  },
+  "homepage": "https://github.com/Jthomas227/NodeJs-QAP-2#readme"
+}
