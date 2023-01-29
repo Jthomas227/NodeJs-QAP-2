@@ -39,7 +39,7 @@ const server = http.createServer((req, res) => {
             res.statusCode = 200;
             lg.shopPage(path, res);
             break;
-        default: // Can't get 404 page
+        default: 
             console.log("404 found");
             path += "404.html";
             res.statusCode = 404;
